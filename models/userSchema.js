@@ -10,243 +10,104 @@ const userSchema = new mongoose.Schema({
 			title: {
 				type: String,
 				trim: true,
-				required: true
 			},
 			budget: {
-				type: Number,
-				required: true,
+				type: Number
 			}
 		},
 		item1: {
-			required: false,
 			title: {
 				type: String,
 				trim: true,
-				required: true
 			},
 			budget: {
-				type: Number,
-				required: true,
+				type: Number
 			}
 		},
 		item2: {
-			required: false,
 			title: {
 				type: String,
 				trim: true,
-				required: true
 			},
 			budget: {
-				type: Number,
-				required: true,
+				type: Number
 			}
 		},
 		item3: {
-			required: false,
 			title: {
 				type: String,
 				trim: true,
-				required: true
 			},
 			budget: {
-				type: Number,
-				required: true,
+				type: Number
 			}
 		},
 		item4: {
-			required: false,
 			title: {
 				type: String,
 				trim: true,
-				required: true
 			},
 			budget: {
-				type: Number,
-				required: true,
+				type: Number
 			}
 		},
 		item5: {
-			required: false,
 			title: {
 				type: String,
 				trim: true,
-				required: true
 			},
 			budget: {
-				type: Number,
-				required: true,
+				type: Number
 			}
 		},
 		item6: {
-			required: false,
 			title: {
 				type: String,
 				trim: true,
-				required: true
 			},
 			budget: {
-				type: Number,
-				required: true,
+				type: Number
 			}
 		},
 		item7: {
-			required: false,
 			title: {
 				type: String,
 				trim: true,
-				required: true
 			},
 			budget: {
-				type: Number,
-				required: true,
+				type: Number
 			}
 		},
 		item8: {
-			required: false,
 			title: {
 				type: String,
 				trim: true,
-				required: true
 			},
 			budget: {
-				type: Number,
-				required: true,
+				type: Number
 			}
 		},
 		item9: {
-			required: false,
 			title: {
 				type: String,
 				trim: true,
-				required: true
 			},
 			budget: {
-				type: Number,
-				required: true,
+				type: Number
 			}
 		}
 	},
 	spent: {
-		required: false,
-		item0: {
-			title: {
-				type: String,
-				trim: true,
-				required: true
-			},
-			budget: {
-				type: Number,
-				required: true,
-			}
-		},
-		item1: {
-			required: false,
-			title: {
-				type: String,
-				trim: true,
-				required: true
-			},
-			budget: {
-				type: Number,
-				required: true,
-			}
-		},
-		item2: {
-			required: false,
-			title: {
-				type: String,
-				trim: true,
-				required: true
-			},
-			budget: {
-				type: Number,
-				required: true,
-			}
-		},
-		item3: {
-			required: false,
-			title: {
-				type: String,
-				trim: true,
-				required: true
-			},
-			budget: {
-				type: Number,
-				required: true,
-			}
-		},
-		item4: {
-			required: false,
-			title: {
-				type: String,
-				trim: true,
-				required: true
-			},
-			budget: {
-				type: Number,
-				required: true,
-			}
-		},
-		item5: {
-			required: false,
-			title: {
-				type: String,
-				trim: true,
-				required: true
-			},
-			budget: {
-				type: Number,
-				required: true,
-			}
-		},
-		item6: {
-			required: false,
-			title: {
-				type: String,
-				trim: true,
-				required: true
-			},
-			budget: {
-				type: Number,
-				required: true,
-			}
-		},
-		item7: {
-			required: false,
-			title: {
-				type: String,
-				trim: true,
-				required: true
-			},
-			budget: {
-				type: Number,
-				required: true,
-			}
-		},
-		item8: {
-			required: false,
-			title: {
-				type: String,
-				trim: true,
-				required: true
-			},
-			budget: {
-				type: Number,
-				required: true,
-			}
-		},
-		item9: {
-			required: false,
-			title: {
-				type: String,
-				trim: true,
-				required: true
-			},
-			budget: {
-				type: Number,
-				required: true,
-			}
-		}
+		item0: Number,
+		item1: Number,
+		item2: Number,
+		item3: Number,
+		item4: Number,
+		item5: Number,
+		item6: Number,
+		item7: Number,
+		item8: Number,
+		item9: Number
 	},
 	year: {
 		Jan: Number,
