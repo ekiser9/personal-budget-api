@@ -16,12 +16,6 @@ app.use(express.json());
 
 const userRouter = require('./routes/user');
 app.use('/user', userRouter);
-const budgetRouter = require('./routes/budget');
-app.use('/budget', budgetRouter);
-const monthRouter = require('./routes/month');
-app.use('/month', monthRouter);
-const yearRouter = require('./routes/year');
-app.use('/year', yearRouter);
 
 const port = 5000;
 app.listen(port, () => {
