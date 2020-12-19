@@ -1,0 +1,20 @@
+{
+  "name": "personal-budget-api",
+  "version": "1.0.0",
+  "description": "API to connect the Personal Budget application to the database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Liz Kiser",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8"
+  }
+}
